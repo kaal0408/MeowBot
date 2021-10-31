@@ -1,7 +1,7 @@
 {
   "name": "Meowbot",
   "description": "Meowẞø† is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
-  "logo": "",
+  "logo": "https://telegra.ph/file/3c2932815330a143fa1a8.png",
   "keywords": [
     "telegram",
     "userbot",
@@ -23,12 +23,12 @@
       "required": false
     },
     "PROFANITY": {
-      "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in MeowBot. Else Fill ON.",
       "value": "ON",
       "required": false
     },
     "PM_LOG_ID": {
-      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @HELL_ID_BOT",
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @Meow_userbot",
       "value": "",
       "required": false
     },
