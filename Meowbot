@@ -6,10 +6,10 @@ _repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $MEOW_REPO == "Meowbot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL01kTm9vcjc4Ni9NZW93L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2thYWwwNDA4L01lb3d1c2VyYm90==" | base64 -d
     elif [[ $MEOW_REPO == "Meowbot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL01kTm9vcjc4Ni9NZW93L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2thYWwwNDA4L01lb3d1c2VyYm90==" | base64 -d
     elif [[ $MEOW_REPO =~ $regex ]]
     then
         if [[ $MEOW_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _repolink () {
             echo "${MEOW_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL01kTm9vcjc4Ni9NZW93L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2thYWwwNDA4L01lb3d1c2VyYm90==" | base64 -d
     fi
 }
 
