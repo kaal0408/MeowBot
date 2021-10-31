@@ -1,7 +1,7 @@
-FROM MdNoor786/Meowbot:latest
+FROM kaal0407/Meowbot:latest
 
 #clonning repo 
-RUN git clone https://github.com/MdNoor786/Meow.git /root/Meowbot
+RUN git clone https://github.com/kaal0408/Meowuserbot.git /root/Meowbot
 
 #working directory 
 WORKDIR /root/Meowbot
