@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $MEOW_REPO == "Meowbot" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL01kTm9vcjc4Ni9NZW93L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    elif [[ $MEOW_REPO == "Meowbot" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL01kTm9vcjc4Ni9NZW93L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    elif [[ $MEOW_REPO =~ $regex ]]
+    then
+        if [[ $MEOW_REPO_BRANCH ]]
+        then
+            echo "${MEOW_REPO}/archive/${MEOW_REPO_BRANCH}.zip"
+        else
+            echo "${MEOW_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL01kTm9vcjc4Ni9NZW93L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    fi
+}
+
+
+start_bot () {
+    local zippath
+    zippath="myMeowbot.zip"
+    echo "  Downloading source code ..."
+    wget -q $(_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    MEOWPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "  Processing Codes..."
+    rm -rf "$zippath"
+    sleep 5
+    cd $MEOWPATH
+    echo "  • Starting Meowbot •  "
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 -m Meowbot
+}
+
+start_bot
