@@ -1,0 +1,106 @@
+{
+  "name": "Meowbot",
+  "description": "Meowẞø† is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
+  "logo": "",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "telethon",
+    "hellbot",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/kaal0408/MeowBot/",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "YOUR_NAME": {
+      "description": "Fill Your Telegram Name. Default Value is Hêll. Required for reverting after clone.",
+      "value": "『ℌєℓℓ』",
+      "required": false
+    },
+    "PROFANITY": {
+      "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
+      "value": "ON",
+      "required": false
+    },
+    "PM_LOG_ID": {
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @HELL_ID_BOT",
+      "value": "",
+      "required": false
+    },
+    "HANDLER": {
+      "description": "Your command handler. Default is ' . ' (dot).",
+      "value": "."
+    },
+    "EMOJI_IN_HELP": {
+      "description": "A emoji to display in help command",
+      "value": "✧"
+    },
+    "BUTTONS_IN_HELP": {
+      "description": "No.of buttons to display in help menu.",
+      "value": "7"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org",
+      "value": ""
+    },
+    "LOGGER_ID": {
+      "description": "Create a private channel. And get it's id from @HELL_ID_BOT and paste here. Value should start with -100",
+      "value": ""
+    },
+    "MEOWBOT_SESSION": {
+      "description": "Get this value by using repl or termux. Refer to Repo for more info.",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "Make a bot from @BotFather and paste the username here.",
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Userid of user to grant sudo access. Add multiple sudo users by giving a space between userids",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
