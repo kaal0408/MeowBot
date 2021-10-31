@@ -53,7 +53,7 @@
       "value": ""
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @HELL_ID_BOT and paste here. Value should start with -100",
+      "description": "Create a private channel. And get it's id from @MEOW_ID_BOT and paste here. Value should start with -100",
       "value": ""
     },
     "MEOWBOT_SESSION": {
