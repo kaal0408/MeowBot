@@ -19,7 +19,7 @@
     },
     "YOUR_NAME": {
       "description": "Fill Your Telegram Name. Default Value is Hêll. Required for reverting after clone.",
-      "value": "『ℌєℓℓ』",
+      "value": "『mєσw uѕєrвσt』",
       "required": false
     },
     "PROFANITY": {
@@ -78,7 +78,7 @@
     },
     "SUDO_USERS": {
       "description": "Userid of user to grant sudo access. Add multiple sudo users by giving a space between userids",
-      "value": "",
+      "value": "804329190",
       "required": false
     }
   },
