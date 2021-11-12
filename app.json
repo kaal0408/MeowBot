@@ -28,7 +28,7 @@
       "required": false
     },
     "PM_LOG_ID": {
-      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @Meow_userbot",
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @Meowuserbot",
       "value": "",
       "required": false
     },
@@ -53,7 +53,7 @@
       "value": ""
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @MEOW_ID_BOT and paste here. Value should start with -100",
+      "description": "Create a private channel. And get it's id from @MeowUserbot and paste here. Value should start with -100",
       "value": ""
     },
     "MEOWBOT_SESSION": {
