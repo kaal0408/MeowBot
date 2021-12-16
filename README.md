@@ -25,15 +25,15 @@
 
  <h1 align="center">💫String Session💫</h1>
 
- [![Run on Repl.it](https://repl.it/badge/github/kaal0408/Lucifer-X&theme=midnight-purple)](https://replit.com/@Lightyagami788/LUCIFER-REPL#main.py)
+ [![Run on Repl.it](https://repl.it/badge/github/kaal0408/Lucifer-X&theme=midnight-purple)](https://replit.com/@Technicalguruji/Telethon-64-bit#main.py)
 
 
 
 <h3 align="center"> ✨OFFICIAL SUPPORT✨</h3>
 
-<a href="https://t.me/LuciferXUpdates"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Murat_30_God"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://t.me/Meow_userbot"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Meowuserbot"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 
